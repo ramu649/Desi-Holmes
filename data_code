@@ -108,6 +108,339 @@ cases = [
     "status": "Solved",
     "description": "C. Alavandar, a pen salesman, was murdered by Devaki Menon and Prabhakar Menon on August 28, 1952. Alavandar, who had harassed Devaki after she ended their relationship, was lured to their house, killed, and decapitated. His head was buried at Royapuram beach, while his body was left in a train compartment. The couple was later arrested in Bombay, tried, and sentenced in 1953."
 },
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY001",
+  "crime_type": "Ransomware Attack",
+  "date_reported": "2017-05-12",
+  "location": "Global",
+  "suspects": "['Lazarus Group']",
+  "evidence": "['Ransom notes', 'Malware code analysis', 'Bitcoin transactions', 'Exploited EternalBlue vulnerability']",
+  "witness_statements": "['Victims reported being locked out of their files with ransom demands.', 'Cybersecurity firms analyzed and linked the attack to North Korean actors.']",
+  "patterns": "The attackers used leaked NSA exploits and demanded Bitcoin payments to unlock encrypted data.",
+  "time_of_crime": "Ongoing during May 2017",
+  "previously_solved": "False",
+  "related_case_ids": "['CY002', 'CY003', 'CY004']",
+  "status": "Attributed to Lazarus Group",
+  "description": "WannaCry was a ransomware attack that encrypted files on infected computers, demanding Bitcoin payments for decryption. It exploited the EternalBlue vulnerability in Microsoft Windows, allegedly leaked by the Shadow Brokers. The attack impacted global organizations, including the UK's NHS, FedEx, Renault, and government agencies. The U.S. government attributed the attack to North Korea's Lazarus Group."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY002",
+  "crime_type": "Cyberattack (Ransomware/Wiper)",
+  "date_reported": "2017-06-27",
+  "location": "Global (Initial attack in Ukraine)",
+  "suspects": "['Sandworm (Russian state-sponsored hackers)']",
+  "evidence": "['Malware code analysis', 'Use of EternalBlue exploit', 'Compromised MeDoc update', 'Master Boot Record (MBR) destruction']",
+  "witness_statements": "['Victims reported data encryption with no possible recovery.', 'Cybersecurity researchers confirmed the attack was designed for destruction, not ransom.', 'Governments of the U.S., UK, and others formally attributed the attack to Russia.']",
+  "patterns": "The attack leveraged ransomware-like tactics but was designed as a wiper to cause irreversible damage.",
+  "time_of_crime": "Ongoing during June 2017",
+  "previously_solved": "False",
+  "related_case_ids": "['CY001', 'CY003', 'CY004']",
+  "status": "Attributed to Sandworm",
+  "description": "NotPetya was a cyberattack that initially spread through a compromised update mechanism of MeDoc, a Ukrainian accounting software. It exploited the EternalBlue vulnerability, among other techniques, to spread globally. Unlike traditional ransomware, NotPetya irreversibly destroyed data, causing an estimated $10 billion in damages. It impacted major corporations, including Maersk, Merck, and FedEx. The attack was attributed to the Russian
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY003",
+  "crime_type": "Supply Chain Ransomware Attack",
+  "date_reported": "2021-07-02",
+  "location": "Global",
+  "suspects": "['REvil (Sodinokibi)']",
+  "evidence": "['Compromised Kaseya VSA software', 'Zero-day vulnerability exploitation', 'Ransom notes', 'Malware code analysis', 'Bitcoin transactions']",
+  "witness_statements": "['Victims reported widespread system lockouts and ransom demands.', 'Cybersecurity researchers confirmed that REvil deployed ransomware through a fake software update.', 'The FBI and international law enforcement agencies tracked and disrupted REvil operations.']",
+  "patterns": "The attackers leveraged a supply chain vulnerability in widely used IT management software to deploy ransomware globally.",
+  "time_of_crime": "Ongoing during July 2021",
+  "previously_solved": "Partially (REvil was disrupted, but similar attacks persist)",
+  "related_case_ids": "['CY001', 'CY002', 'CY004']",
+  "status": "Partially Resolved",
+  "description": "The Kaseya Ransomware Attack was a supply chain cyberattack carried out by the REvil ransomware group. The attackers exploited a zero-day vulnerability in Kaseya’s VSA remote monitoring software, allowing them to deploy ransomware to over 1,500 businesses worldwide. The attack impacted organizations across various industries, forcing some to shut down operations temporarily. REvil initially demanded $70 million in Bitcoin for a universal decryption key. Kaseya eventually obtained a decryption key, and law enforcement agencies took action against REvil, leading to their temporary shutdown. The attack highlighted the dangers of supply chain vulnerabilities and ransomware-as-a-service operations."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY004",
+  "crime_type": "Data Breach (Data Scraping Exploit)",
+  "date_reported": "2021-04-03",
+  "location": "Global",
+  "suspects": "['Unknown attackers who exploited Facebook’s contact importer feature']",
+  "evidence": "['Leaked database of 533 million users', 'Exploitation of contact importer vulnerability', 'Public data dump analysis']",
+  "witness_statements": "['Users reported an increase in spam calls and phishing attempts.', 'Cybersecurity researchers confirmed the leak contained real user data.', 'Privacy advocates criticized Facebook for not notifying affected users.']",
+  "patterns": "Attackers used automated data scraping to harvest personal information by exploiting a vulnerability in Facebook’s contact importer tool.",
+  "time_of_crime": "Vulnerability exploited in 2019, data leaked in April 2021",
+  "previously_solved": "False",
+  "related_case_ids": "['CY005', 'CY006']",
+  "status": "Unresolved",
+  "description": "The Facebook Data Breach of 2021 exposed personal data of 533 million users from 106 countries due to a vulnerability in Facebook’s contact importer feature. Attackers scraped user data, including phone numbers, Facebook IDs, names, locations, birthdates, and email addresses. While Facebook claimed it patched the vulnerability in 2019, the stolen data resurfaced in 2021. The breach raised concerns over privacy, regulatory compliance, and Facebook’s transparency. The incident highlighted the risks of data scraping, leading to renewed calls for stronger data protection laws and security measures."
+}
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY007",
+  "crime_type": "Cyber Extortion and Data Destruction",
+  "date_reported": "2014-06-18",
+  "location": "Amazon Web Services (AWS) Cloud Infrastructure",
+  "suspects": "['Unknown cybercriminal group specializing in extortion and DDoS attacks']",
+  "evidence": "['Compromised AWS control panel', 'DDoS attack logs', 'Deleted customer data and backups', 'Ransom demands']",
+  "witness_statements": "['Code Spaces reported an unauthorized breach of its AWS account, leading to the deletion of critical data.', 'Customers experienced sudden service disruptions and permanent data loss.']",
+  "patterns": "Attackers gained unauthorized access to cloud infrastructure, launched a DDoS attack, demanded ransom, and escalated to full data destruction when the ransom was not paid.",
+  "time_of_crime": "June 2014",
+  "previously_solved": "False",
+  "related_case_ids": "['CY002', 'CY006']",
+  "status": "Unresolved",
+  "description": "Code Spaces, a cloud-based code repository service, was targeted in a devastating cyber extortion attack in June 2014. Attackers gained access to the company’s Amazon Web Services (AWS) control panel, launching a DDoS attack and demanding ransom. When the company refused to comply, the attackers deleted critical data, including customer information, backups, and infrastructure configurations. The irreversible damage forced Code Spaces to shut down permanently. This incident highlighted the vulnerabilities of cloud-based services, the growing threat of cyber extortion, and the importance of strong security controls such as multi-factor authentication (MFA) and secure backup strategies."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY008",
+  "crime_type": "Cyberattack on Critical Infrastructure",
+  "date_reported": "2015-12-23",
+  "location": "Ukraine",
+  "suspects": "['Sandworm', 'Russian GRU-affiliated cyber group']",
+  "evidence": "['Phishing emails', 'BlackEnergy malware', 'KillDisk malware', 'Power grid disruption logs']",
+  "witness_statements": "['Power company officials reported unauthorized access and system disruptions.', 'Residents experienced sudden power outages lasting up to six hours.']",
+  "patterns": "Attackers used phishing emails to gain access, deployed malware to disrupt operations, and executed scheduled shutdowns of power distribution systems.",
+  "time_of_crime": "December 23, 2015",
+  "previously_solved": "False",
+  "related_case_ids": "['CY007', 'CY004']",
+  "status": "Unresolved",
+  "description": "On December 23, 2015, three Ukrainian power distribution companies—Prykarpattyaoblenergo, Kyivoblenergo, and Chernivtsioblenergo—were targeted in a sophisticated cyberattack. The attackers, linked to Russian state-sponsored group Sandworm, used phishing emails to infiltrate systems and deployed the BlackEnergy and KillDisk malware to cause massive disruptions. Approximately 230,000 residents lost power for up to six hours. This attack marked the first known instance of a cyberattack successfully disrupting a power grid, raising global concerns about the vulnerability of critical infrastructure to cyber threats."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY009",
+  "crime_type": "Cyber Espionage",
+  "date_reported": "2010-01-12",
+  "location": "Global (Targeted U.S. and multinational corporations)",
+  "suspects": "['APT10 (Stone Panda)', 'Chinese state-sponsored hackers']",
+  "evidence": "['Spear-phishing emails', 'Zero-day Internet Explorer exploit', 'Compromised corporate networks', 'Stolen intellectual property and source code']",
+  "witness_statements": "['Google reported unauthorized access attempts on its infrastructure.', 'Employees of targeted companies unknowingly clicked on malicious links.']",
+  "patterns": "Attackers used spear-phishing emails to gain initial access, then exploited a zero-day vulnerability in Internet Explorer to install malware and steal sensitive data.",
+  "time_of_crime": "Mid-2009 to early 2010",
+  "previously_solved": "False",
+  "related_case_ids": "['CY005', 'CY007']",
+  "status": "Unresolved",
+  "description": "Operation Aurora was a sophisticated cyber espionage campaign, primarily targeting Google and over 30 other major companies, including Adobe, Yahoo, and Northrop Grumman. Conducted by Chinese state-sponsored hackers, the attack used spear-phishing emails and a zero-day Internet Explorer vulnerability to infiltrate corporate networks. The attackers stole sensitive intellectual property, including source code and proprietary information. Google’s public disclosure of the attack in January 2010 marked a turning point in cybersecurity awareness, leading to heightened global concerns about state-sponsored cyber threats and prompting stronger cybersecurity practices in the corporate world."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY010",
+  "crime_type": "Cyber Heist",
+  "date_reported": "2016-02-04",
+  "location": "Bangladesh, Federal Reserve Bank of New York, Philippines, Sri Lanka",
+  "suspects": "['Lazarus Group', 'North Korean state-sponsored hackers']",
+  "evidence": "['Compromised SWIFT credentials', 'Malware installed in Bangladesh Bank’s systems', 'Fraudulent payment instructions', 'Laundered funds in Philippine casinos']",
+  "witness_statements": "['Bank officials discovered unauthorized transactions after payment instructions were sent to the Federal Reserve Bank of New York.', 'Financial institutions flagged suspicious transfers, leading to partial fund recovery.']",
+  "patterns": "Attackers infiltrated Bangladesh Bank’s network, compromised SWIFT credentials, and initiated fraudulent international transactions to transfer funds to accounts in the Philippines and Sri Lanka.",
+  "time_of_crime": "February 4–5, 2016",
+  "previously_solved": "False",
+  "related_case_ids": "['CY006', 'CY008']",
+  "status": "Partially Resolved (Some funds recovered, but main perpetrators remain at large)",
+  "description": "The Bangladesh Bank Heist was one of the most sophisticated cyber heists in history, in which hackers, attributed to North Korea's Lazarus Group, attempted to steal nearly $1 billion from Bangladesh Bank’s account at the Federal Reserve Bank of New York. The attackers compromised SWIFT credentials, sending fraudulent payment requests. While most transactions were blocked, $81 million was successfully transferred to the Philippines and laundered through casinos. The heist exposed vulnerabilities in global banking systems, leading to increased regulatory scrutiny, SWIFT security enhancements, and stronger cybersecurity measures in financial institutions worldwide."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+
+{
+  "case_id": "CY011",
+  "crime_type": "Cryptocurrency Theft",
+  "date_reported": "2014-02-24",
+  "location": "Tokyo, Japan (Mt. Gox Exchange)",
+  "suspects": "['Unknown cybercriminal group', 'Possible insider involvement']",
+  "evidence": "['Hot wallet vulnerabilities', 'Lack of multi-factor authentication', 'Transaction records showing unauthorized Bitcoin withdrawals', 'Forensic blockchain analysis']",
+  "witness_statements": "['Mt. Gox CEO Mark Karpelès cited security flaws as the cause.', 'Customers reported missing funds prior to the exchange’s collapse.']",
+  "patterns": "Hackers exploited Mt. Gox’s security flaws over several years, siphoning off Bitcoins from its hot wallets without immediate detection.",
+  "time_of_crime": "2011–2014",
+  "previously_solved": "False",
+  "related_case_ids": "['CY007', 'CY009']",
+  "status": "Unresolved (Hackers not identified, partial fund recovery through bankruptcy proceedings)",
+  "description": "The Mt. Gox Bitcoin Hack was the largest cryptocurrency theft at the time, with hackers stealing 850,000 Bitcoins (valued at $450 million in 2014, now worth billions). The attack was attributed to security vulnerabilities and mismanagement at Mt. Gox, which failed to implement cold storage and other critical protections. The exchange’s collapse resulted in financial losses for 24,000 customers, led to legal proceedings against CEO Mark Karpelès, and prompted regulatory scrutiny. The case remains a defining moment in cryptocurrency history, shaping industry security standards and regulatory frameworks."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY013",
+  "crime_type": "Data Breach",
+  "date_reported": "2018-09-08",
+  "location": "Marriott International (Starwood guest reservation database)",
+  "suspects": "['Chinese state-sponsored hackers linked to MSS (Ministry of State Security)']",
+  "evidence": "['Malware installed in Starwood’s reservation system since 2014', 'Unauthorized access logs spanning four years', 'Indictments by the U.S. Department of Justice in 2020']",
+  "witness_statements": "['Marriott discovered the breach during a security review in 2018.', 'Cybersecurity experts linked the attack to Chinese espionage efforts.']",
+  "patterns": "Attackers infiltrated Starwood’s systems before Marriott's acquisition, remained undetected for four years, and exfiltrated sensitive guest information, likely for espionage purposes.",
+  "time_of_crime": "2014 – September 2018",
+  "previously_solved": "False",
+  "related_case_ids": "['CY005', 'CY009']",
+  "status": "Unresolved (Attackers identified, but no known arrests or legal consequences)",
+  "description": "The Marriott Data Breach, discovered in 2018, exposed the personal information of approximately 500 million guests due to a cyberattack on Starwood’s reservation system, which began in 2014. Attackers, later identified as Chinese state-sponsored hackers, installed malware to extract data over four years. The breach led to significant financial, regulatory, and reputational consequences for Marriott, including a $123 million GDPR fine and multiple lawsuits. The incident underscored the risks associated with mergers and acquisitions in cybersecurity and highlighted the growing role of state-sponsored cyber espionage targeting personal data."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY014",
+  "crime_type": "Data Privacy Violation",
+  "date_reported": "2018-03-17",
+  "location": "Facebook (global impact)",
+  "suspects": "['Cambridge Analytica', 'Aleksandr Kogan', 'Facebook (for negligence)']",
+  "evidence": "['Whistleblower testimony from Christopher Wylie', 'Harvested Facebook data from 87 million users', 'Investigative reports by The Guardian and The New York Times', 'Facebook's congressional hearings']",
+  "witness_statements": "['Christopher Wylie detailed how Cambridge Analytica used psychological profiling for political influence.', 'Mark Zuckerberg testified before Congress about Facebook’s role in the breach.']",
+  "patterns": "Exploited Facebook’s lax data policies, collected personal data via quiz app, sold data to a political firm, used for targeted election campaigns without user consent.",
+  "time_of_crime": "2014 – 2018",
+  "previously_solved": "False",
+  "related_case_ids": "['CY011', 'CY012']",
+  "status": "Partially resolved (Facebook fined, Cambridge Analytica shut down, but larger concerns about political data misuse persist)",
+  "description": "The Cambridge Analytica Scandal, revealed in 2018, exposed how Facebook user data was harvested without consent and used for political advertising. Researcher Aleksandr Kogan developed a quiz app that collected data from millions of users, which was then sold to Cambridge Analytica. The firm used psychological profiling to microtarget voters during the 2016 U.S. Presidential Election and the Brexit referendum. The scandal led to regulatory fines, congressional hearings, and stricter data protection laws. It raised concerns about the ethical use of data in political campaigns and the need for stronger privacy regulations."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY015",
+  "crime_type": "Data Breach & Negligence",
+  "date_reported": "2017-07-29",
+  "location": "Equifax (U.S., UK, Canada impact)",
+  "suspects": "['Unknown cybercriminal group (potential nation-state actors)', 'Equifax (for negligence)']",
+  "evidence": "['Unpatched Apache Struts vulnerability (CVE-2017-5638)', 'Data exfiltration logs', 'Delayed breach detection (76 days)', 'Equifax’s failure to apply security patches']",
+  "witness_statements": "['Equifax executives testified before Congress regarding the breach.', 'Cybersecurity experts confirmed the vulnerability was widely known and should have been patched.']",
+  "patterns": "Exploitation of known software vulnerability, weak network segmentation, failure to detect breach for months, inadequate security controls.",
+  "time_of_crime": "May – July 2017",
+  "previously_solved": "False",
+  "related_case_ids": "['CY011', 'CY012', 'CY014']",
+  "status": "Partially resolved (Equifax settled for $700M, improved security measures, but personal data remains exposed on the dark web)",
+  "description": "The 2017 Equifax Data Breach exposed the personal data of 147 million people due to a failure to patch a known Apache Struts vulnerability. Hackers exploited this security flaw to gain access to sensitive financial and personal information, including Social Security numbers and credit card details. Equifax failed to detect the breach for 76 days, and its delayed response led to widespread criticism. The breach resulted in a $700 million settlement with regulators and new industry-wide security reforms, emphasizing the importance of timely software patching and robust cybersecurity defenses."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY016",
+  "crime_type": "Nation-State Cyber Espionage",
+  "date_reported": "2020-12-13",
+  "location": "Global (U.S. government agencies, private sector companies)",
+  "suspects": "['APT29 (Cozy Bear)', 'Nobelium (Russian state-sponsored hackers)']",
+  "evidence": "['Malicious code (SUNBURST backdoor) in SolarWinds Orion updates', 'Network logs showing lateral movement', 'Stolen FireEye red team tools', 'Russian cyber tactics linked to previous espionage operations']",
+  "witness_statements": "['FireEye reported unauthorized access to its systems.', 'U.S. government agencies confirmed breach and data exfiltration.', 'SolarWinds disclosed that 18,000 customers installed compromised updates.']",
+  "patterns": "Supply chain compromise, use of trojanized software updates, prolonged undetected access, targeting of government and private sector entities.",
+  "time_of_crime": "March 2020 – December 2020",
+  "previously_solved": "False",
+  "related_case_ids": "['CY008', 'CY011', 'CY013']",
+  "status": "Ongoing investigation (U.S. sanctions imposed on Russia, cybersecurity measures improved, but full impact remains unclear)",
+  "description": "The SolarWinds cyberattack, attributed to Russian state-sponsored hackers (APT29/Nobelium), compromised 18,000 organizations, including U.S. government agencies and major corporations. Attackers infiltrated SolarWinds' software supply chain, inserting a backdoor (SUNBURST) into Orion updates. This allowed lateral movement and data exfiltration while evading detection for months. The breach exposed vulnerabilities in third-party software security, leading to new industry-wide cybersecurity reforms, government sanctions, and increased collaboration between the public and private sectors."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY017",
+  "crime_type": "Mass Data Breach",
+  "date_reported": "2016-09-22",
+  "location": "Global (affected Yahoo users worldwide)",
+  "suspects": "['Russian state-sponsored hackers']",
+  "evidence": "['Spear-phishing attack leading to credential theft', 'Forged cookies used to access accounts without passwords', 'Outdated MD5 hashing for passwords', 'Unencrypted security questions/answers exposed']",
+  "witness_statements": "['Yahoo confirmed breach details in 2016 after forensic analysis.', 'V
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+
+{
+  "case_id": "CY021",
+  "crime_type": "Ransomware Attack",
+  "date_reported": "2021-05-07",
+  "location": "United States (East Coast)",
+  "suspects": "['DarkSide ransomware group (Eastern Europe/Russia)']",
+  "evidence": "['Compromised VPN credentials without MFA', 'DarkSide ransomware deployed, encrypting IT systems', 'Exfiltrated 100GB of sensitive data for double extortion', 'Bitcoin ransom payment of $4.4 million (partial recovery of $2.3 million by DOJ)']",
+  "witness_statements": "['Colonial Pipeline shut down operations as a precaution.', 'Customers experienced widespread fuel shortages and panic buying.', 'U.S. government issued cybersecurity directives following the attack.']",
+  "patterns": "Use of stolen credentials, lack of MFA, ransomware deployment with double extortion, targeting critical infrastructure.",
+  "time_of_crime": "2021-05-07",
+  "previously_solved": "False",
+  "related_case_ids": "['CY014', 'CY018']",
+  "status": "Closed (DarkSide ceased operations; cybersecurity regulations tightened; DOJ recovered part of the ransom)",
+  "description": "The Colonial Pipeline ransomware attack of May 2021 was carried out by the DarkSide group, exploiting a compromised VPN account without MFA. The attack encrypted Colonial Pipeline’s IT systems and exfiltrated 100GB of data, forcing a precautionary shutdown of fuel operations. This led to fuel shortages, panic buying, and economic disruptions across the U.S. East Coast. Colonial Pipeline paid a $4.4 million Bitcoin ransom, though $2.3 million was later recovered by the U.S. DOJ. The incident exposed cybersecurity gaps in critical infrastructure and led to stronger regulatory measures."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY013",
+  "crime_type": "Data Breach",
+  "date_reported": "2013-12-19",
+  "location": "United States",
+  "suspects": "Unknown cybercriminal group",
+  "evidence": "['Compromised third-party HVAC vendor credentials', 'Memory-scraping malware on POS systems', 'Stolen payment card data sent to external servers']",
+  "witness_statements": "['Customers reported fraudulent charges after shopping at Target.', 'Cybersecurity experts detected suspicious network activity.', 'Target’s security systems issued alerts but were not acted upon.']",
+  "patterns": "Supply chain attack, lateral network movement, POS malware, delayed detection.",
+  "time_of_crime": "2013-11-27 to 2013-12-15",
+  "previously_solved": "False",
+  "related_case_ids": "['CY018', 'CY021']",
+  "status": "Closed (Target settled lawsuits, improved cybersecurity, and industry regulations were strengthened)",
+  "description": "The Target data breach of late 2013 occurred when attackers gained access through a third-party HVAC vendor’s compromised credentials. They deployed memory-scraping malware on Target’s POS systems, exfiltrating payment card data of 40 million customers and personal information of 70 million more. The breach went undetected for weeks, leading to financial losses exceeding $200 million, reputational damage, and increased regulatory scrutiny. Target settled with states for $18.5 million and implemented stronger cybersecurity measures, including chip-and-PIN technology and enhanced network monitoring. The incident accelerated EMV adoption and emphasized the importance of vendor security management."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+{
+  "case_id": "CY014",
+  "crime_type": "Cyberattack, Data Breach",
+  "date_reported": "2014-11-24",
+  "location": "United States",
+  "suspects": "North Korea (Lazarus Group)",
+  "evidence": "['Destructive malware wiping Sony’s systems', 'Leaked confidential emails and employee data', 'Threats issued against theaters screening The Interview']",
+  "witness_statements": "['Sony employees found their computers displaying a warning message.', 'Cybersecurity experts traced malware similarities to North Korean attacks.', 'The FBI confirmed North Korea’s involvement based on technical indicators.']",
+  "patterns": "Nation-state attack, politically motivated cyber warfare, data exfiltration, ransomware-style destruction.",
+  "time_of_crime": "2014-11-24",
+  "previously_solved": "False",
+  "related_case_ids": "['CY022', 'CY027']",
+  "status": "Closed (Attribution made to North Korea, U.S. imposed sanctions, Sony recovered but faced long-term damage)",
+  "description": "The 2014 Sony Pictures hack, attributed to North Korea’s Lazarus Group, was a politically motivated cyberattack in retaliation for the release of the film The Interview. Hackers infiltrated Sony’s network, deploying destructive malware that wiped company data and leaking vast amounts of confidential information, including unreleased films, executive emails, and employee personal details. The attackers also issued threats against theaters showing the film. The breach resulted in financial and reputational damage for Sony, leading to executive resignations and strained diplomatic relations. The U.S. government formally attributed the attack to North Korea, imposing sanctions in response."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+
+
+{
+  "case_id": "CY010",
+  "crime_type": "Cyberattack, Cyber Warfare",
+  "date_reported": "2010-06",
+  "location": "Iran (Natanz Nuclear Facility)",
+  "suspects": "Believed to be United States and Israel",
+  "evidence": "['USB-delivered malware exploiting zero-day vulnerabilities', 'Targeting of Siemens PLCs controlling uranium centrifuges', 'Code analysis linking to state-sponsored development']",
+  "witness_statements": "['Cybersecurity researchers detected anomalous PLC behavior.', 'Iranian officials reported significant disruptions in centrifuge operations.', 'Forensic analysis confirmed advanced malware with stealth capabilities.']",
+  "patterns": "Nation-state cyber sabotage, industrial control system exploitation, targeted zero-day attacks.",
+  "time_of_crime": "Between 2005-2010",
+  "previously_solved": "False (No official acknowledgment of perpetrators)",
+  "related_case_ids": "['CY015', 'CY031']",
+  "status": "Closed (Attribution to U.S. and Israel widely accepted, but no formal claims of responsibility)",
+  "description": "Stuxnet, discovered in 2010, was an advanced cyber weapon targeting Iran’s Natanz nuclear facility. The malware was designed to infect Siemens PLCs controlling uranium enrichment centrifuges, subtly modifying their speeds to cause physical degradation while masking the attack from operators. It utilized multiple zero-day exploits and rootkit techniques, making it one of the most sophisticated cyber threats ever seen. While Iran’s nuclear program suffered significant setbacks, Stuxnet also spread globally, raising awareness of vulnerabilities in industrial control systems. The attack marked the beginning of cyber warfare as a strategic tool for statecraft."
+},
+# Ravikant, Case Source: DeepSeek Ai
+
+
+
+
+{
+  "case_id": "CY011",
+  "crime_type": "Data Breach, Cyber Extortion",
+  "date_reported": "2015-07",
+  "location": "Global (Headquartered in Canada)",
+  "suspects": "The Impact Team (Hacker Group)",
+  "evidence": "['Massive data dump of 37 million user accounts', 'Hacker manifesto demanding shutdown of Ashley Madison', 'Security weaknesses in data encryption and password management']",
+  "witness_statements": "['Users reported extortion attempts following data exposure.', 'Ashley Madison executives acknowledged security flaws.', 'Cybersecurity researchers analyzed and confirmed data authenticity.']",
+  "patterns": "Data breaches targeting sensitive user information, cyber extortion tactics, inadequate encryption practices.",
+  "time_of_crime": "Between June - July 2015",
+  "previously_solved": "False (Hackers were never officially identified or prosecuted)",
+  "related_case_ids": "['CY018', 'CY024']",
+  "status": "Closed (Data leaked, lawsuits settled, but attackers remain unidentified)",
+  "description": "In mid-2015, hacker group 'The Impact Team' infiltrated Ashley Madison, a dating site for extramarital affairs, exposing personal information of 37 million users. The attack was motivated by the hackers' opposition to the site’s business model, particularly its false 'full delete' feature that still retained user data. After the company refused to shut down, hackers released massive amounts of personal details, leading to public scandals, lawsuits, and even suicides. Ashley Madison faced legal action, settling for $11.2 million, and was forced to revamp its cybersecurity measures. The incident remains one of the most infamous data breaches, emphasizing the dangers of inadequate security and the ethical responsibility of handling sensitive data."
+},
+# Ravikant, Case Source: DeepSeek Ai
+{
+  "case_id": "CY012",
+  "crime_type": "Bank Fraud, Cyber Heist, ATM Malware Attack",
+  "date_reported": "2018-08-11",
+  "location": "Pune, Maharashtra, India",
+  "suspects": "Unknown international hacker group",
+  "evidence": "['Malware discovered on the bank’s ATM switch server', 'Records of 14,000 fraudulent ATM transactions', 'Unauthorized SWIFT transactions to Hong Kong bank accounts']",
+  "witness_statements": "['Bank officials confirmed unauthorized ATM withdrawals in multiple countries.', 'Cybersecurity firms analyzed malware used in the attack.', 'RBI investigators highlighted security lapses in Cosmos Bank’s systems.']",
+  "patterns": "Malware-based attacks targeting ATM servers, global financial fraud using cloned debit cards, exploitation of SWIFT transactions.",
+  "time_of_crime": "Between August 11-13, 2018",
+  "previously_solved": "False (Hackers were never officially identified or arrested)",
+  "related_case_ids": "['CY020', 'CY028']",
+  "status": "Ongoing Investigation (International law enforcement cooperation required)",
+  "description": "The Cosmos Bank Cyber Attack of 2018 is one of India's largest banking cybercrimes. Hackers infiltrated the bank's ATM switch server using malware, enabling unauthorized transactions across 28 countries. Over 14,000 fraudulent ATM withdrawals resulted in a loss of ₹78 crore, while an additional ₹13.92 crore was siphoned via SWIFT transactions to a Hong Kong-based bank. The attack revealed severe cybersecurity gaps in Indian banking infrastructure. Though law enforcement agencies, including the Pune Police Cyber Crime Cell, launched an investigation, the perpetrators remain unidentified. The case prompted RBI to introduce stricter cybersecurity regulations for Indian banks."
+}
+
 
 ]
 
