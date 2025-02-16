@@ -108,6 +108,182 @@ cases = [
     "status": "Solved",
     "description": "C. Alavandar, a pen salesman, was murdered by Devaki Menon and Prabhakar Menon on August 28, 1952. Alavandar, who had harassed Devaki after she ended their relationship, was lured to their house, killed, and decapitated. His head was buried at Royapuram beach, while his body was left in a train compartment. The couple was later arrested in Bombay, tried, and sentenced in 1953."
 },
+# Nidhi, Case Source: 
+{
+    "case_id": "SP001",
+    "crime_type": "Homicide",
+    "date_reported": "2024-12-30",
+    "location": "Shivpuri, Madhya Pradesh, India",
+    "victim": "Elderly couple and a neighbor",
+    "suspects": "['Unknown assailants']",
+    "evidence": "['Murder weapons found near the crime scene', 'CCTV footage from nearby houses', 'Phone records of the victims']",
+    "witness_statements": "['Neighbors heard noises but did not suspect foul play initially']",
+    "patterns": "Possible premeditated attack with personal motives. Authorities are investigating financial or property disputes.",
+    "time_of_crime": "Night",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "An elderly couple and their neighbor were brutally murdered in Shivpuri,
+}
+
+# Nidhi, Case Source: 
+{
+    "case_id": "JM001",
+    "crime_type": "Homicide",
+    "date_reported": "2025-02-12",
+    "location": "Kanpur, Uttar Pradesh, India",
+    "victim": "Jyoti (35 years old)",
+    "suspects": "['Husband', 'Driver', 'Four other accomplices']",
+    "evidence": "['CCTV footage near crime scene', 'Call records between suspects', 'Confession from an accomplice']",
+    "witness_statements": "['Neighbors reported frequent domestic disputes', 'Driver admitted involvement in planning the murder']",
+    "patterns": "Premeditated murder involving financial and personal disputes.",
+    "time_of_crime": "Evening",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Closed - Conviction",
+    "description": "Jyoti, a 35-year-old woman from Kanpur, was murdered in a planned attack orchestrated by her husband with the help of his driver and four others. The motive appears to be related to financial disagreements and personal conflicts. Authorities gathered crucial evidence, including CCTV footage and phone records, which led to their conviction. All six accused have been sentenced to life imprisonment."
+},
+Nidhi, Case Souce:
+{
+    "case_id": "SH001",
+    "crime_type": "Sexual Harassment",
+    "date_reported": "2025-02-10",
+    "location": "London, United Kingdom",
+    "victim": "Female employee at Wipro UK",
+    "suspects": "['Senior executive at Wipro']",
+    "evidence": "['Formal complaint filed with UK authorities', 'Internal company emails', 'Testimonies from colleagues']",
+    "witness_statements": "['Several employees confirmed instances of inappropriate behavior by the accused.']",
+    "patterns": "Workplace harassment case involving power dynamics and alleged misconduct by a senior official.",
+    "time_of_crime": "Ongoing",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "A female employee at Wipro UK has filed a sexual harassment lawsuit amounting to Rs 10 crore against a senior executive. The case involves allegations of inappropriate behavior, which was corroborated by several employees. Authorities in the UK are currently investigating, and Wipro has launched an internal inquiry into the matter."
+},
+Nidhi, Case Source:
+{
+    "case_id": "DV001",
+    "crime_type": "Domestic Violence",
+    "date_reported": "2025-02-10",
+    "location": "New Delhi, India",
+    "victim": "Anita Sharma (32 years old)",
+    "suspects": "['Husband Rajesh Sharma']",
+    "evidence": "['Medical report confirming physical injuries', 'CCTV footage of the building', 'Police complaint by neighbor']",
+    "witness_statements": "['Neighbor reported loud arguments and cries for help', 'Victim's friend confirmed prior incidents of abuse']",
+    "patterns": "Repeated instances of physical and emotional abuse. Victim had filed complaints before but later withdrew them.",
+    "time_of_crime": "Evening",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "Anita Sharma, a 32-year-old woman from New Delhi, was hospitalized after suffering multiple injuries from an alleged assault by her husband, Rajesh Sharma. Neighbors reported hearing loud arguments and cries for help before calling the police. This is not the first reported incident, as Anita had previously filed but later withdrew domestic violence complaints. The police are now gathering evidence, including medical reports and CCTV footage, to proceed with the case."
+},
+Nidhi, Case Source:
+{
+    "case_id": "KN001",
+    "crime_type": "Murder",
+    "date_reported": "2025-01-30",
+    "location": "Kanpur, Uttar Pradesh, India",
+    "victim": "Ekta Gupta",
+    "suspects": "['Gym trainer']",
+    "evidence": "['CCTV footage from gym', 'Call records between victim and suspect', 'Forensic analysis from crime scene']",
+    "witness_statements": "['Friends and family mentioned she had been avoiding the gym for weeks before the incident']", 
+    "patterns": "Possible premeditated murder. Investigation suggests coercion leading up to the crime.",
+    "time_of_crime": "Morning",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "Ekta Gupta, the wife of a Kanpur-based businessman, was murdered in what is suspected to be a planned crime. CCTV footage showed her last entering the gym, and police have arrested the gym trainer as a suspect. Authorities have submitted a 700-page charge sheet with key evidence including call logs and forensic findings. Investigators are still working to establish the full motive and sequence of events."
+}
+Nidhi,  Case Source:
+{
+    "case_id": "DL001",
+    "crime_type": "Kidnapping",
+    "date_reported": "2025-01-01",
+    "location": "Rajouri Garden, Delhi, India",
+    "victim": "4-year-old girl",
+    "suspects": "['Roma Gupta (36)', 'Mona Kashyap (32)']",
+    "evidence": "['CCTV footage from over 200 cameras', 'Witness reports from local residents', 'Tip-off from informer in Chander Vihar']",
+    "witness_statements": "['Mother reported her daughter missing from an MCD school', 'Residents of Chander Vihar identified the child near a Gurudwara']",
+    "patterns": "Kidnapping for child possession, linked to infertility struggles.",
+    "time_of_crime": "Morning",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "A 4-year-old girl was kidnapped from a government MCD school in Rajouri Garden, Delhi, on January 1, 2025. Delhi Police arrested two women, Roma Gupta and Mona Kashyap, who admitted that one of them planned to abduct a child due to infertility issues. After an extensive investigation, including reviewing over 200 CCTV cameras and circulating the child’s photos on social media, a tip-off led police to Chander Vihar, Nilothi. The girl was safely rescued near a Gurudwara after 20 days. The suspects remain in police custody as the case progresses."
+}
+
+Nidhi, Case Source:
+{
+    "case_id": "BI001",
+    "crime_type": "Suspicious Death",
+    "date_reported": "2025-02-01",
+    "location": "Varanasi, Uttar Pradesh, India",
+    "victim": "17-year-old NEET aspirant from Sasaram, Bihar",
+    "suspects": "['Hostel operator Rameshwar Pandey']",
+    "evidence": "['Victim found hanging in hostel room', 'Last phone call with mother at 11 PM', 'Instagram post hinting at distress', 'Post-mortem report']",
+    "witness_statements": "['Family claims everything was normal before the incident', 'Father suspects foul play and staged suicide']",
+    "patterns": "Possible staged suicide or foul play. Family insists on deeper investigation.",
+    "time_of_crime": "Night",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "A 17-year-old girl from Sasaram, Bihar, was found hanging in her hostel room in Varanasi on February 1, 2025. She was preparing for the NEET exam and had been staying at Ambrish Kumar’s Girls Hostel for two years. On the night of the incident, she spoke to her mother via video call at 11 PM, where everything appeared normal. Later, she posted a distressing message on Instagram. Her father suspects foul play, claiming that it was a murder staged as suicide. Based on his complaint, police registered a case against the hostel operator, Rameshwar Pandey. The case is currently under investigation with authorities examining all possible angles."
+},
+
+Nidhi, Case Source:
+{
+    "case_id": "OK001",
+    "crime_type": "Suspicious Death",
+    "date_reported": "2024-07-10",
+    "location": "Grady County, Oklahoma, USA",
+    "victim": "Holly Miller",
+    "suspects": "[]",
+    "evidence": "['Crime scene near State Highway 92 and Interstate 44', 'Ongoing FBI and OSBI investigation']",
+    "witness_statements": "['Friends and community members recall victim as an influential figure in the local basketball community.']",
+    "patterns": "Possible homicide under investigation. FBI involved due to jurisdiction on tribal land.",
+    "time_of_crime": "Unknown",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "Holly Miller was found deceased in Grady County, Oklahoma. The FBI has taken over the case as it occurred on tribal land, with OSBI assisting in the investigation. Authorities have not yet released details regarding suspects or cause of death. Community members remember her as a passionate mentor for young girls in basketball."
+},
+Nidhi, Case Source:
+{
+    "case_id": "SI001",
+    "crime_type": "Suspicious Death",
+    "date_reported": "2024-11-01",
+    "location": "Bhitti, Goreyakothi, Siwan, Bihar, India",
+    "victim": "Rani Kumari (17 years old)",
+    "suspects": "[]",
+    "evidence": "['Mobile phone found at the crime scene', 'Burn marks on the body', 'Autopsy report']",
+    "witness_statements": "['Family members confirmed she was last seen sleeping at home.']",
+    "patterns": "Possible premeditated attack or accidental electrocution. Initial reports suggest a possible love affair angle.",
+    "time_of_crime": "Night",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "Rani Kumari, a 17-year-old girl, was found dead in a field about a kilometer from her home. She had burn marks on her body, leading to speculation about electrocution. Her mobile phone was recovered near her body, and police are analyzing call records to determine if she was lured out of the house. The case is currently under investigation, with no confirmed suspects yet."
+},
+Nidhi, Case Source:
+
+{
+    "case_id": "SH003",
+    "crime_type": "Double Murder",
+    "date_reported": "2024-04-28",
+    "location": "Mittanemilli, Avadi, Chennai, India",
+    "suspects": "['Mahesh']",
+    "evidence": "['CCTV footage', 'Mobile phone left at the crime scene', 'Witness statements']",
+    "witness_statements": "['Neighbors reported a commotion inside the house before the police were alerted.']",
+    "patterns": "The suspect posed as a patient to gain entry, suggesting premeditation and prior familiarity with the victims.",
+    "time_of_crime": "Evening",
+    "previously_solved": "False",
+    "related_case_ids": "[]",
+    "status": "Under Investigation",
+    "description": "Dr. Sivan Nair, a Siddha practitioner, and his wife, Prasanna Kumari, were hacked to death in their home. The prime suspect, Mahesh, had been visiting the clinic since 2019. Reports suggest a long-standing dispute, with the suspect allegedly acting out of frustration. The police apprehended him based on CCTV footage and a mobile phone left at the scene. Investigations are ongoing."
+}
+
+This summary is based on available reports. Let me know if you need any modifications or further details!
+
 
 ]
 
